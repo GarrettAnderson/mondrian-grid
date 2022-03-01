@@ -15,7 +15,9 @@ ul {
   list-style: none;
   display: grid;
   /* grid-template-columns: minmax(100px, max-content) repeat(auto-fill, 250px) 100%; */
-  grid-template-columns: 200px repeat(auto-fill, 100px) 300px;
+  /* grid-template-columns: 200px repeat(auto-fill, 100px) 300px; */
+  grid-template-columns: repeat(4, 1fr) minmax(auto, max-content);
+  grid-template-rows: 200px repeat(auto-fill, 100px) 300px;
   grid-auto-flow: dense;
 }
 
@@ -23,4 +25,8 @@ li {
   border: 6px solid black;
   display: flex;
   width: fit-content;
+}
+
+li:nth-child(4) {
+  grid-column: span 3;
 }
