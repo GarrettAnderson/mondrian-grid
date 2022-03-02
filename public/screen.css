@@ -13,7 +13,7 @@ body {
 
 main {
   width: 70%;
-  margin: 180px auto;
+  margin: 0 auto;
 }
 
 ul {
@@ -38,6 +38,24 @@ li {
 
 img {
   border: 6px solid black;
+}
+
+
+.image-2 {
+  grid-column: span 3;
+}
+
+
+.image-3 {
+  grid-column: span 2;
+}
+
+.image-4 {
+  grid-column: span 3;
+}
+
+.image-20 {
+  grid-column: span 3;
 }
 
 /* li:nth-child(4) {
