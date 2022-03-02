@@ -11,6 +11,11 @@ body {
   min-height: 100%;
 }
 
+main {
+  width: 70%;
+  margin: 180px auto;
+}
+
 ul {
   list-style: none;
   display: grid;
