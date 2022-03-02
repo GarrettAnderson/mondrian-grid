@@ -13,19 +13,22 @@ body {
 
 ul {
   list-style: none;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, minmax(80px, 1fr)); */
   /* grid-template-columns: repeat(auto-fill, 25vw); */
   /* grid-template-columns: minmax(100px, max-content) repeat(auto-fill, 250px) 100%; */
   /* grid-template-columns: 200px repeat(auto-fill, 100px) 300px; */
   /* grid-template-columns: repeat(4, 1fr) minmax(auto, max-content); */
-  /* grid-template-rows: 200px repeat(auto-fill, 100px) 300px;
-  grid-auto-flow: dense; */
+  /* grid-template-rows: 200px repeat(auto-fill, 100px) 300px; */
+  grid-auto-flow: dense;
 }
 
 li {
-  display: flex;
-  /* width: fit-content; */
+  /* border: 6px solid black; */
+  /* display: flex;
+  width: fit-content; */
 }
 
 img {
